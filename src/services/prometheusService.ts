@@ -2,7 +2,7 @@ const https = require('https');
 import axios from 'axios';
 
 const url = process.env.URL_PORTAINER;
-const token = process.env.BEARER_TOKEN;
+const token = process.env.PORTAINER_ACCESS_TOKEN;
 const prometheus = process.env.PROMETHEUS;
 
 const instance = axios.create({
